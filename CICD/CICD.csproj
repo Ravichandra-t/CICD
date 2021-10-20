@@ -6,4 +6,15 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove=".github\**" />
+    <EmbeddedResource Remove=".github\**" />
+    <None Remove=".github\**" />
+    <Page Remove=".github\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="D:\CICD\New folder\CICD\.github\workflows\deploy.yml" Link="deploy.yml" />
+  </ItemGroup>
+
 </Project>
