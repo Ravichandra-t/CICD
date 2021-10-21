@@ -31,5 +31,5 @@ jobs:
       - uses: csexton/release-asset-action@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          pattern: ClassCommands/bin/Release/netcoreapp3.1/publish/*.exe
+          pattern: CICD/bin/Release/netcoreapp3.1/publish/*.exe
           release-url: ${{ steps.create_release.outputs.upload_url }}
