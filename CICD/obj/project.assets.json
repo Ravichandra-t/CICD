@@ -1,8 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {},
-    ".NETCoreApp,Version=v3.1/win-x64": {}
+    ".NETCoreApp,Version=v3.1": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
@@ -69,10 +68,6 @@
             "version": "[3.1.10, 3.1.10]"
           },
           {
-            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[3.1.20, 3.1.20]"
-          },
-          {
             "name": "Microsoft.NETCore.App.Host.win-x64",
             "version": "[3.1.20, 3.1.20]"
           },
@@ -81,16 +76,8 @@
             "version": "[3.1.0, 3.1.0]"
           },
           {
-            "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[3.1.20, 3.1.20]"
-          },
-          {
             "name": "Microsoft.WindowsDesktop.App.Ref",
             "version": "[3.1.0, 3.1.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[3.1.20, 3.1.20]"
           }
         ],
         "frameworkReferences": {
@@ -102,11 +89,6 @@
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
-      }
-    },
-    "runtimes": {
-      "win-x64": {
-        "#import": []
       }
     }
   }
